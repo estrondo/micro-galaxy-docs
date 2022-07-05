@@ -1,16 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T16:47:01.133Z" agent="5.0 (X11)" etag="0blESRE1LBQVPBB3jnXH" compressed="false" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T20:17:38.626Z" agent="5.0 (Macintosh)" etag="t9jp48hENfmxVdinL94G" compressed="false" version="20.0.4" type="github">
   <diagram id="QYLhOXVDbwKB6_qFkyPz" name="architecture">
-    <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-11" value="micro-galaxy-api-core" style="swimlane;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="730" height="240" as="geometry" />
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-11" value="micro-galaxy-api-core" style="swimlane;sketch=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="730" height="240" as="geometry">
+            <mxRectangle x="40" y="490" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-13" value="SimulationService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" vertex="1" parent="uMBKUin86vTa0Si-NZ6P-11">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-13" value="SimulationService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="uMBKUin86vTa0Si-NZ6P-11" vertex="1">
           <mxGeometry x="20" y="50" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-20" value="StreamService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" vertex="1" parent="uMBKUin86vTa0Si-NZ6P-11">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-20" value="StreamService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="uMBKUin86vTa0Si-NZ6P-11" vertex="1">
           <mxGeometry x="240" y="50" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XBYY144TDSn2ukcRjJpU-6" value="micro-galaxy-api" style="swimlane;rounded=0;sketch=1;fontSize=14;startSize=23;" parent="1" vertex="1">
@@ -19,40 +21,40 @@
         <mxCell id="XBYY144TDSn2ukcRjJpU-7" value="POST /simulation" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="10" y="80" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-2" value="Route Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;sketch=1;" vertex="1" parent="XBYY144TDSn2ukcRjJpU-6">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-2" value="Route Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;sketch=1;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="10" y="40" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-4" value="&lt;div&gt;GET /simulation/{id}/status&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" vertex="1" parent="XBYY144TDSn2ukcRjJpU-6">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-4" value="&lt;div&gt;GET /simulation/{id}/status&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="10" y="130" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-5" value="&lt;div&gt;GET /simulation/{id}/download/{filmId}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" vertex="1" parent="XBYY144TDSn2ukcRjJpU-6">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-5" value="&lt;div&gt;GET /simulation/{id}/download/{filmId}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="10" y="180" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-12" value="SimulationServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XBYY144TDSn2ukcRjJpU-6">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-12" value="SimulationServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="390" y="80" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;sketch=1;" edge="1" parent="XBYY144TDSn2ukcRjJpU-6" source="XBYY144TDSn2ukcRjJpU-7" target="uMBKUin86vTa0Si-NZ6P-12">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;sketch=1;" parent="XBYY144TDSn2ukcRjJpU-6" source="XBYY144TDSn2ukcRjJpU-7" target="uMBKUin86vTa0Si-NZ6P-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="250" as="sourcePoint" />
             <mxPoint x="350" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;sketch=1;" edge="1" parent="XBYY144TDSn2ukcRjJpU-6" source="uMBKUin86vTa0Si-NZ6P-4" target="uMBKUin86vTa0Si-NZ6P-12">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;sketch=1;" parent="XBYY144TDSn2ukcRjJpU-6" source="uMBKUin86vTa0Si-NZ6P-4" target="uMBKUin86vTa0Si-NZ6P-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="240" as="sourcePoint" />
             <mxPoint x="450" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-19" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontSize=14;" edge="1" parent="XBYY144TDSn2ukcRjJpU-6" source="uMBKUin86vTa0Si-NZ6P-5" target="uMBKUin86vTa0Si-NZ6P-18">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-19" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontSize=14;" parent="XBYY144TDSn2ukcRjJpU-6" source="uMBKUin86vTa0Si-NZ6P-5" target="uMBKUin86vTa0Si-NZ6P-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="284" as="sourcePoint" />
             <mxPoint x="280" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-18" value="StreamServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XBYY144TDSn2ukcRjJpU-6">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-18" value="StreamServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="390" y="180" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-16" value="" style="endArrow=classic;fontSize=14;sketch=1;html=1;curved=1;" edge="1" parent="1" source="uMBKUin86vTa0Si-NZ6P-12" target="uMBKUin86vTa0Si-NZ6P-13">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-16" value="" style="endArrow=classic;fontSize=14;sketch=1;html=1;curved=1;" parent="1" source="uMBKUin86vTa0Si-NZ6P-12" target="uMBKUin86vTa0Si-NZ6P-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="310" as="sourcePoint" />
             <mxPoint x="310" y="420" as="targetPoint" />
@@ -61,7 +63,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-21" value="" style="endArrow=classic;fontSize=14;sketch=1;html=1;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMBKUin86vTa0Si-NZ6P-18" target="uMBKUin86vTa0Si-NZ6P-20">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-21" value="" style="endArrow=classic;fontSize=14;sketch=1;html=1;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uMBKUin86vTa0Si-NZ6P-18" target="uMBKUin86vTa0Si-NZ6P-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="563.2" y="270" as="sourcePoint" />
             <mxPoint x="219.99999999999994" y="540" as="targetPoint" />

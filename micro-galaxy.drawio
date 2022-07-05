@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T20:21:29.455Z" agent="5.0 (Macintosh)" etag="CnSgbzxrBxjrfZihh6eR" compressed="false" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T20:21:58.569Z" agent="5.0 (Macintosh)" etag="dQ9obfXT_9-sBBecL2xW" compressed="false" version="20.0.4" type="github">
   <diagram id="QYLhOXVDbwKB6_qFkyPz" name="architecture">
     <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
         <mxCell id="uMBKUin86vTa0Si-NZ6P-13" value="SimulationService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="uMBKUin86vTa0Si-NZ6P-11" vertex="1">
           <mxGeometry x="20" y="50" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-20" value="StreamService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="uMBKUin86vTa0Si-NZ6P-11" vertex="1">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-20" value="DownloadStore" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="uMBKUin86vTa0Si-NZ6P-11" vertex="1">
           <mxGeometry x="240" y="50" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XBYY144TDSn2ukcRjJpU-6" value="micro-galaxy-api" style="swimlane;rounded=0;sketch=1;fontSize=14;startSize=23;" parent="1" vertex="1">

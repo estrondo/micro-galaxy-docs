@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T20:17:38.626Z" agent="5.0 (Macintosh)" etag="t9jp48hENfmxVdinL94G" compressed="false" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T20:21:29.455Z" agent="5.0 (Macintosh)" etag="CnSgbzxrBxjrfZihh6eR" compressed="false" version="20.0.4" type="github">
   <diagram id="QYLhOXVDbwKB6_qFkyPz" name="architecture">
     <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         <mxCell id="uMBKUin86vTa0Si-NZ6P-5" value="&lt;div&gt;GET /simulation/{id}/download/{filmId}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;align=left;spacing=8;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="10" y="180" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-12" value="SimulationServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-12" value="&lt;div&gt;SimulationHandler&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="390" y="80" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uMBKUin86vTa0Si-NZ6P-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;sketch=1;" parent="XBYY144TDSn2ukcRjJpU-6" source="XBYY144TDSn2ukcRjJpU-7" target="uMBKUin86vTa0Si-NZ6P-12" edge="1">
@@ -51,7 +51,7 @@
             <mxPoint x="280" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-18" value="StreamServiceAdapter" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-18" value="DownloadHandler" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="XBYY144TDSn2ukcRjJpU-6" vertex="1">
           <mxGeometry x="390" y="180" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uMBKUin86vTa0Si-NZ6P-16" value="" style="endArrow=classic;fontSize=14;sketch=1;html=1;curved=1;" parent="1" source="uMBKUin86vTa0Si-NZ6P-12" target="uMBKUin86vTa0Si-NZ6P-13" edge="1">

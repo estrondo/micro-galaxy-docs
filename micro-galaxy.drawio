@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T15:21:07.782Z" agent="5.0 (X11)" etag="gP9FGoxCUH_-piDY4CKw" compressed="false" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T11:58:09.259Z" agent="5.0 (X11)" etag="N1KKlDY0iX3zfwv-EjkN" compressed="false" version="20.0.4" type="github">
   <diagram id="QYLhOXVDbwKB6_qFkyPz" name="architecture">
     <mxGraphModel dx="1422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -61,8 +61,8 @@
         <mxCell id="uMBKUin86vTa0Si-NZ6P-20" value="DownloadStore" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="500" y="394" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uMBKUin86vTa0Si-NZ6P-13" value="SimulationService" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="680" y="130" width="200" height="40" as="geometry" />
+        <mxCell id="uMBKUin86vTa0Si-NZ6P-13" value="SimulationDispatcher" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="680" y="80" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ZHBmiXiqmCA11Tn_INj-1" value="MediaStorage" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="750" y="394" width="200" height="40" as="geometry" />
@@ -75,6 +75,9 @@
               <mxPoint x="700" y="330" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-ZHBmiXiqmCA11Tn_INj-3" value="&lt;div&gt;SimulationManager&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
